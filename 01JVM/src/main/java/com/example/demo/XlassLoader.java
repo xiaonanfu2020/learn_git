@@ -53,5 +53,10 @@ public class XlassLoader extends ClassLoader{
         }
         return targetArray;
     }
+    /**
+     * 结果
+     * Hello.hello
+     * Hello, classLoader!
+     */
 
 }
