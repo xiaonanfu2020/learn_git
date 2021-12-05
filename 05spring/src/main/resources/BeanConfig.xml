@@ -10,32 +10,4 @@
 
     <bean id="xmlExample" class="com.example.demo.XML.XMLExample"> </bean>
 
-
-    <!--&lt;!&ndash;    学校类相关配置&ndash;&gt;
-    <bean id="student1" class="com.example.code.class9.school.Student">
-        <property name="id" value="1"/>
-        <property name="name" value="1"/>
-    </bean>
-    <bean id="student2" class="com.example.code.class9.school.Student">
-        <property name="id" value="2"/>
-        <property name="name" value="2"/>
-    </bean>
-
-    <bean id="class1" class="com.example.code.class9.school.MyClass">
-        <property name="students">
-            <list>
-                <ref bean="student1"/>
-                <ref bean="student2"/>
-            </list>
-        </property>
-    </bean>
-
-    <bean id="school1" class="com.example.code.class9.school.School">
-        <property name="myClasses">
-            <list>
-                <ref bean="class1"/>
-            </list>
-        </property>
-    </bean>
--->
 </beans>
