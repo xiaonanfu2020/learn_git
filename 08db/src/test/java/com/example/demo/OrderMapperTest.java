@@ -31,7 +31,7 @@ public class OrderMapperTest {
         orderMapper.insert(new Order(1L, 1));
         orderMapper.insert(new Order(2L, 1));
 
-        
+
         Map<String, Object> condition = new HashMap<>(1);
         condition.put("user_id", 1L);
 
